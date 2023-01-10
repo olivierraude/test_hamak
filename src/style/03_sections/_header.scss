@@ -51,17 +51,14 @@ header {
     
       & .content {
         width: 75%;
-        //margin: 50px auto;
     
         & p:first-child {
-          font-size: 1.2em;
-          line-height: 1.4em;
+          font-size: clamp(12px, 1.2vw, 18px);
           margin-bottom: 1em;
         }
         
         & p:nth-child(2) {
-          font-size: 1em;
-          line-height: 1.4em!important;
+          font-size: clamp(10px, 1vw, 16px);
           margin-bottom: 2.4em;
         }
       }
@@ -95,7 +92,7 @@ header {
         & .content {
           margin: 20px auto;
       
-          & p:first-child {
+          /* & p:first-child {
             font-size: 1em;
             line-height: 1.4em;
             margin-bottom: 0.8em;
@@ -105,7 +102,7 @@ header {
             font-size: 0.8em;
             line-height: 1.2em!important;
             margin-bottom: 2.8em;
-          }
+          } */
         }
       }
     } 
