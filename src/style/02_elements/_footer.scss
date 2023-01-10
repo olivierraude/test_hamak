@@ -1,0 +1,134 @@
+footer {
+  //@include flexbox(flex, center);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: var(--c_grey);
+
+  & .separator {
+    background: url(./img/color-frame.svg) no-repeat top left;
+    background-size: cover;
+    width: 100%;
+    height: 29px;
+  }
+
+
+  .container {
+    @include flexbox(flex, space-between);
+
+    width: 80%;
+    padding-top: 85px;
+
+    /* @media only screen and (max-width: 573px) {
+      flex-direction: column;
+      align-items: center;
+    } */
+
+    &_left {
+      width: 50%;
+
+      & .content {
+        display: block;
+        width: 80%;
+
+        & p {
+          margin: 30px auto;
+        }
+
+        & p:first-of-type {
+          font-size: 25px;
+          font-weight: 500;
+          line-height: 35px;
+          margin-top: 35px;
+          margin-bottom: 30px;
+        }
+      }
+
+      .icons {
+        display: flex;
+
+        & svg {
+          width: 45px;
+          height: 45px;
+          fill: #9D5B9E;
+          //fill: var(-c--pink);
+
+          margin: 30px 20px 0 0;
+          
+          &:hover {
+            fill: #FFCF2E;
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+
+    &_right {
+      display: block;
+      width: 50%;
+
+      .logo {
+        width: 100%;
+
+        & p {
+          text-align: center;
+          margin: 40px auto 95px;
+        }
+        
+        &-collectif {
+          display: block;
+          text-indent: -9999px;
+          width: 95px;
+          height: 70px;
+          background: url(./img/logo-collectif.png);
+          margin: auto;
+        }
+        
+        &-promis {
+          display: block;
+          text-indent: -9999px;
+          width: 93px;
+          height: 69px;
+          background: url(./img/logo-promis.png);
+          margin: auto;
+        }
+        
+        &-alpa {
+          display: block;
+          text-indent: -9999px;
+          width: 97px;
+          height: 71px;
+          background: url(./img/logo-alpa.png);
+          margin: auto;
+        }
+      }
+
+    }
+    
+    &_props {
+      margin: 20px auto;
+
+        & a {
+          text-decoration: underline!important;
+          text-underline-offset: 4px;
+        }
+    }
+
+    @media only screen and (max-width: 390px) {
+      flex-direction: column;
+      width: 90%;
+
+      &_left {
+        width: 100%;
+      }
+  
+      &_right {
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+      }
+    }
+  }
+}
+

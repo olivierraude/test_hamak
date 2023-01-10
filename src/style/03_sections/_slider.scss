@@ -1,0 +1,46 @@
+.slider {
+  margin: 170px auto;
+  //overflow: auto;
+
+  .pink-container {
+    display: block;
+    //width: 90%;
+    width: 90%;
+    padding: 35px;
+    float: right;
+    margin-top: -55vh;
+    
+    background: var(--c_pink);
+    border-radius: 0px 0px 0px 100px;
+  
+    & p {
+      color: var(--c_white);
+      font-weight: 500;
+      font-size: 35px!important;
+      line-height: 50px;
+      width: 70%;
+      margin: 25% auto 50px 50px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 820px) {
+
+    .pink-container {
+      margin-top: -30vh;
+
+      & p {
+        width: 95%;
+      }
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    margin: 80px auto;
+  }
+}
+
+.slider::after {
+  content: "";
+  clear: both;
+  display: table;
+}

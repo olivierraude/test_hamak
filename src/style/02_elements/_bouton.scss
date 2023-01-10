@@ -1,0 +1,15 @@
+.btn {
+  padding: 16px 51px 16px 52px;
+
+  /* Jaune */
+
+  background: var(--c_light-orange);
+  border-radius: 32px;
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 17px!important;
+  &:hover {
+    background: var(--c_pink);
+    color: var(--c_white);
+  }
+}

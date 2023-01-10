@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+body {
+  //couleurs
+  --c_pink: #9D5B9E;
+  --c_light-orange: #FFCF2E;
+  --c_grey: #F8F8F8;
+  --c_light-grey: #646D70;
+  --c_dark-grey: #4F4F4F;
+  --c_white: #ffffff;
+  --c_black: black;
+
+  //fontes
+  --f_texte: "Montserrat", sans-serif;
+  --f_rubik: "Rubik", sans-serif;
+}
+
+@mixin texte {
+  font-family: var(--f_texte);
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+@mixin flexbox($display, $justify) {
+  display: $display;
+  justify-content: $justify;
+}

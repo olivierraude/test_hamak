@@ -1,0 +1,15 @@
+.accordeon {
+  @include flexbox(flex, center);
+  
+  width: 80%;
+  margin: 170px auto;
+
+  &-container {
+    @include flexbox(flex, center);
+    flex-wrap: wrap;
+
+    /* @media only screen and (max-width: 820px) {
+      justify-content: center;
+    } */
+  }
+}

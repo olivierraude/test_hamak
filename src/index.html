@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Test Front-end Hamak</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    
+    <!-- FONTAWESOME -->
+    <link rel="shortcut icon" type="image/jpg" href="./public/images/HAMAK_FAVICON.png"/>
+    
+    <!-- FONTS -->
+    <!--     <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> -->
+
+    <!-- SLICK -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" defer></script>
+    <script type="module" src="./scripts/index.js" defer></script>
+
+  </head>
+  
+  <body>
+    
+    <!-- HEADER -->
+    <header>
+     
+      <!-- NAV -->
+      <nav class="topbar">
+
+        <a href="#"><img src="./public/images/Logo_EER.png" alt=""></a>
+
+        <p>Aide à l'emploi aux personnes immigrantes</p>
+
+        <a href="#" class="btn">S'inscrire gratuitement</a>
+
+      </nav>
+
+      <!-- HERO BANNER -->
+
+      <div class="hero">
+        <div class="bg-container"></div>
+
+        <div class="yellow-container">
+          <img
+            src="./style/img/text-cap.svg"
+            alt="Cap sur les régions"
+            height="auto"
+            width="70%" />
+        </div>
+        <div class="blur-container">
+
+          <div class="content">
+            <p>Les régions du Québec offrent de nombreux emplois, un coût de la vie moins élevé, des paysages à couper le souffle et des communautés locales engagées! </p>
+            <p> Beaucoup de personnes immigrantes ont déjà fait le saut, découvrez tout ce que les régions vous réservent! </p>
+
+            <a href="#" class="btn">Allez-y</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SLIDER -->
+    <section class="slider">
+      <div class="slider-container">
+
+        <div class="slide-container">
+          <div class="content">
+            <p>Témoignage</p>
+            <p>“Mon intégration<br /> au travail s’est très<br /> bien passée.”</p>
+              
+            <div class="name">
+              <div class="content">
+                <p>Abdou, 43 ans,</p>
+                <p>Préposé aux bénéficiaires</p>
+                <p>Cap-Chat</p>
+              </div>
+            </div>
+          </div>
+          <div class="image">
+            <img src="./public/images/img-slider-1.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="slide-container">
+          <div class="content">
+            <p>Témoignage</p>
+            <p>“J’ai trouvé un emploi dans mon domaine très rapidement.”</p>
+
+            <div class="name">
+              <div class="content">
+                <p>Andrès, 37 ans,</p>
+                <p>Monteur vidéo</p>
+                <p>Chicoutimi</p>
+              </div>
+            </div>
+          </div>
+          <div class="image">
+            <img src="./public/images/img-slider-2.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pink-container">
+        <p>Quelles interrogations avez-vous sur la vie à l’extérieur de Montréal?</p>
+      </div>
+    </section>
+
+    <!-- ACCORDEON -->
+    <section class="accordeon">
+      <div class="accordeon-container">
+
+        <div class="question">
+          <div class="tab">
+            <p>En région, est-ce que j’achète une maison 
+              ou je loue un logement ?</p>
+            <img src="./style/img/plus.png" alt="">
+          </div>
+          <div class="toggle">
+            <p>Le marché immobilier hors de Montréal est plus accessible. En région, les unités de condo et les maisons sont vendues à une fraction du prix de la métropole, en plus d’être souvent pourvues de larges terrains. Vous préférez louer plutôt qu’acheter? Nos partenaires assistent généralement les familles immigrantes dans leur recherche de logement. Oui, un chez soi dans un Montréal en miniature est plus accessible !</p>
+          </div>
+        </div>
+  
+        <div class="question">
+          <div class="tab">
+            <p>Faut-il une voiture pour se déplacer en région? </p>
+            <img src="./style/img/plus.png" alt="">
+          </div>
+          <div class="toggle">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error blanditiis repellendus nemo. Natus hic in provident cupiditate nihil voluptas, sapiente ipsam dicta magnam dignissimos perferendis? Rem illum voluptas cum!
+            Perspiciatis enim maiores doloremque itaque, nemo maxime ea mollitia, ullam nobis doloribus modi non labore at quibusdam aliquam unde asperiores et cumque laborum quas culpa repellendus necessitatibus quis cupiditate! Ipsa!
+            Facilis aperiam ex tempora illum aliquid ipsa perspiciatis animi voluptatibus veniam tempore magni, minus doloribus a pariatur fugit quod, laboriosam ratione voluptas omnis quam harum ipsam praesentium maxime recusandae. Laboriosam.</p>
+          </div>
+        </div>
+  
+        <div class="question">
+          <div class="tab">
+            <p>Mes enfants trouveront-ils une école ou une garderie?</p>
+            <img src="./style/img/plus.png" alt="">
+          </div>
+          <div class="toggle">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit sed nesciunt assumenda, sunt ratione molestiae harum excepturi dolores ullam iusto alias nostrum error laborum quod modi consequuntur at quidem nulla.
+            Temporibus sunt expedita adipisci aspernatur sit excepturi eligendi, porro iure atque saepe nemo ipsa ut cupiditate vitae esse aperiam laborum ipsam quidem ex! Praesentium, iste odio facere eos obcaecati enim?
+            Architecto accusantium neque nemo alias, fuga porro cupiditate fugit, error non dolores quae officia necessitatibus, recusandae tempore. Ut, libero at impedit labore, maxime necessitatibus itaque, excepturi ex ab odio repellat?</p>
+          </div>
+        </div>
+  
+        <div class="question">
+          <div class="tab">
+            <p>Les soins de santé sont-ils accessibles?</p>
+            <img src="./style/img/plus.png" alt="">
+          </div>
+          <div class="toggle">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident laudantium similique quisquam, ipsa eveniet assumenda nesciunt obcaecati reprehenderit a quis doloribus voluptatem dolorum enim odit sapiente, necessitatibus repellat tenetur.
+            Perferendis assumenda ipsa modi architecto voluptas. Eius officiis natus sed, eveniet ducimus ipsum veritatis ipsam praesentium voluptatem vitae, in esse provident consequatur culpa iste, autem asperiores nobis cum molestiae similique.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- WHY ? -->
+    <section class="why">
+      <div class="title">
+        <p>Pourquoi s’établir en région ?</p>
+      </div>
+      
+      <div class="cards-container">
+        <div class="card">
+          <a href="#" class="content">
+            <p>Des paysages à couper le souffle</p>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#" class="content">
+            <p>Des miliers d’emplois avantageux</p>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#" class="content">
+            <p>Un rythme de vie ralenti</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="separator"></div>
+      <div class="container">
+        
+        <div class="container_left">
+          <div class="content">
+            <h2>Envie de s’établir<br /> en région?</h2>
+
+            <p><strong>Inscrivez-vous gratuitement</strong><br />Nous vous aiderons à trouver un emploi à l’extérieur de Montréal!</p>
+            
+            <h3>À propos</h3>
+            
+            <p>Emploisenregions.ca regroupe les forces de trois organismes montréalais spécialisés en immigration. Mandatés par le gouvernement du Québec, ces organismes accompagnent les personnes immigrantes qui désirent travailler à l’extérieur de la région de Montréal. Pour s’assurer que les démarches d’intégration réussissent, ils comptent sur l’appui de plus de 75 partenaires répartis à travers le Québec.</p>
+            
+            <h3>Suivez-nous</h3>
+
+            <div class="icons">
+              <a href="#">
+                <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M22 0C9.84974 0 0 9.84974 0 22C0 34.1503 9.84974 44 22 44C34.1503 44 44 34.1503 44 22C44 9.84974 34.1503 0 22 0ZM24.2929 22.9664V34.9355H19.3406V22.9668H16.8664V18.8422H19.3406V16.3658C19.3406 13.0009 20.7376 11 24.7069 11H28.0113V15.1251H25.9458C24.4007 15.1251 24.2985 15.7015 24.2985 16.7773L24.2929 18.8417H28.0347L27.5969 22.9664H24.2929Z"/>
+                </svg>
+              </a>
+              <a href="#">
+                <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M22 0C9.84974 0 0 9.84974 0 22C0 34.1503 9.84974 44 22 44C34.1503 44 44 34.1503 44 22C44 9.84974 34.1503 0 22 0ZM31.1683 14.4369C32.178 14.7139 32.9732 15.5303 33.2431 16.5671C33.7335 18.4461 33.7335 22.3666 33.7335 22.3666C33.7335 22.3666 33.7335 26.287 33.2431 28.1662C32.9732 29.2029 32.178 30.0193 31.1683 30.2966C29.3384 30.8 22.0001 30.8 22.0001 30.8C22.0001 30.8 14.6619 30.8 12.8319 30.2966C11.8221 30.0193 11.0269 29.2029 10.7571 28.1662C10.2668 26.287 10.2668 22.3666 10.2668 22.3666C10.2668 22.3666 10.2668 18.4461 10.7571 16.5671C11.0269 15.5303 11.8221 14.7139 12.8319 14.4369C14.6619 13.9333 22.0001 13.9333 22.0001 13.9333C22.0001 13.9333 29.3384 13.9333 31.1683 14.4369Z"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7999 26.4V19.0667L25.6666 22.7335L19.7999 26.4Z"/>
+                  </svg>
+              </a>
+              <a href="#">
+                <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M44 22C44 34.1503 34.1503 44 22 44C9.84974 44 0 34.1503 0 22C0 9.84974 9.84974 0 22 0C34.1503 0 44 9.84974 44 22Z"/>
+                  <path d="M22.0021 16.9861C19.2275 16.9861 16.9894 19.2247 16.9894 21.9999C16.9894 24.7752 19.2275 27.0137 22.0021 27.0137C24.7768 27.0137 27.0148 24.7752 27.0148 21.9999C27.0148 19.2247 24.7768 16.9861 22.0021 16.9861ZM22.0021 25.2596C20.2091 25.2596 18.7432 23.7978 18.7432 21.9999C18.7432 20.2021 20.2047 18.7403 22.0021 18.7403C23.7995 18.7403 25.261 20.2021 25.261 21.9999C25.261 23.7978 23.7952 25.2596 22.0021 25.2596ZM28.389 16.7811C28.389 17.4312 27.8655 17.9505 27.2199 17.9505C26.5698 17.9505 26.0507 17.4269 26.0507 16.7811C26.0507 16.1352 26.5742 15.6116 27.2199 15.6116C27.8655 15.6116 28.389 16.1352 28.389 16.7811ZM31.709 17.968C31.6348 16.4014 31.2771 15.0138 30.1297 13.8705C28.9867 12.7273 27.5994 12.3694 26.0332 12.2909C24.419 12.1993 19.5809 12.1993 17.9667 12.2909C16.4049 12.3651 15.0175 12.7229 13.8702 13.8662C12.7228 15.0094 12.3694 16.3971 12.2909 17.9636C12.1993 19.5781 12.1993 24.4174 12.2909 26.0319C12.365 27.5985 12.7228 28.9861 13.8702 30.1294C15.0175 31.2726 16.4005 31.6305 17.9667 31.709C19.5809 31.8006 24.419 31.8006 26.0332 31.709C27.5994 31.6348 28.9867 31.277 30.1297 30.1294C31.2727 28.9861 31.6305 27.5985 31.709 26.0319C31.8006 24.4174 31.8006 19.5825 31.709 17.968ZM29.6237 27.7643C29.2834 28.6196 28.6246 29.2785 27.7652 29.6232C26.4782 30.1337 23.4243 30.0159 22.0021 30.0159C20.5799 30.0159 17.5217 30.1294 16.2391 29.6232C15.384 29.2828 14.7252 28.6239 14.3806 27.7643C13.8702 26.477 13.9879 23.4225 13.9879 21.9999C13.9879 20.5774 13.8745 17.5185 14.3806 16.2356C14.7209 15.3803 15.3796 14.7214 16.2391 14.3767C17.5261 13.8662 20.5799 13.984 22.0021 13.984C23.4243 13.984 26.4826 13.8705 27.7652 14.3767C28.6203 14.7171 29.279 15.376 29.6237 16.2356C30.1341 17.5229 30.0163 20.5774 30.0163 21.9999C30.0163 23.4225 30.1341 26.4814 29.6237 27.7643Z" fill="white"/>
+                ¢</svg>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        
+        <div class="container_right">
+          <div class="logo">
+            <a href="#" class="logo-collectif"></a>
+            <p>7124 Rue Boyer,<br />
+            Montréal, QC H2S 2J8</p>
+            <a href="#" class="logo-promis"></a>
+            <p>3333 Chemin de la Côte-Sainte-Catherine,<br />
+            Montréal, QC H3S 2C5
+            </p>
+            <a href="#" class="logo-alpa"></a>
+            <p>2030 Boulevard Pie-IX, Bureau 309,<br />
+            Montréal, QC H1V 2C8</p>
+          </div>
+        </div>
+      </div>
+      <div class="container_props">
+        <p>&copy;2022 Emplois en régions. Tous droits réservés. Crédits <a href="#">Hamak</a>.</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <!-- <script type="text/javascript">
+      $(document).ready(function(){
+        $('.slider-container').slick();
+      });
+    </script> -->
+  </body>
+</html>
+
