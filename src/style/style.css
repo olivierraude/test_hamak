@@ -197,7 +197,6 @@ ul.slick-dots {
 @media only screen and (max-width: 390px) {
   ul.slick-dots {
     width: 95%;
-    bottom: 35%;
   }
 }
 
